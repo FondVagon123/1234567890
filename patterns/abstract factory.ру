@@ -1,3 +1,5 @@
+from abc import ABC, abstractmethod
+
 # Абстрактні класи для продуктів
 class Wine(ABC):
     @abstractmethod
